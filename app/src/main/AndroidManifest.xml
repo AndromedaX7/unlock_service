@@ -30,5 +30,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".client.LockApplyActivity"/>
+        <activity android:name=".client.GenerateOrdersActivity"/>
+        <activity android:name=".client.CreateOrderActivity"/>
+        <activity android:name=".client.LockApplyConfirmActivity"/>
+        <activity android:name=".client.LockRegisteredActivity"/>
+        <activity android:name=".client.OrderListActivity"/>
+        <activity android:name=".client.TrackingOrderActivity"/>
+        <activity android:name=".client.EvaluationServiceActivity"/>
+        <activity android:name=".client.EvaluationServiceFinishActivity"/>
     </application>
 </manifest>
